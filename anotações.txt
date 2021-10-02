@@ -70,3 +70,21 @@ A tag <ul> suporta 3 tipos: disk, circle, square
 -----------------------------------------------
 
 ****** Módulo 02 ******
+Sempre trabalhar com paletas de 3 a 5 cores
+
+Adobe Colors
+Ferramenta gratuita para trabalhar com paleta de cores
+Possui função de extração de cores de uma imagem e criawção de degradê
+(Não permite salvar paletas, apenas com cadastro)
+
+Paletton 
+Ferramenta gratuita para trabalhar com paleta de cores
+Tem a função de mostrar exemplos de sites com a paleta escolhida
+
+Coolors
+"Explorar" de paleta de cores
+
+Extensão: Collorzilla
+Para capturar cores no navegador
+
+Configuração global das CSS = *{}
