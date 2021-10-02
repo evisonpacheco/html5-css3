@@ -1,0 +1,72 @@
+github.com/gustavoguanabara
+
+gustavoguanabara.github.io
+
+Bibliografia
+Referência MDN (Mozilla Developer Network)
+
+W3C (World Wide Web Consortium)
+
+Web Hypertext Application Technology Working Group
+
+W3Schools (Refsnes Data)
+
+Livros
+HTML 5 Entendendo e Executando (O'Reilly)
+
+HTML5 e CSS3 (Alta Books)
+
+HTML&CSS Projete e Construa Websites (Alta Books)
+
+-----------------------------------------------
+
+A linguagem HTML é focada em conteúdo (textos, imagens, vídeos, tabelas)
+
+A linguagem CSS é focada em design (cores, sombras, tamanhos, posicionamento)
+
+A linguagem Javascript é focada em interações (menus, animações, popups, validações)
+
+HTML
+Abertura de tag + conteúdo + fechamento de tag:
+<h1>Exemplo de título</h1>
+
+Parâmetros (src, alt) Valores (exemplo de foto)
+<img src="foto.png" alt="Exemplo de foto">
+
+CSS
+h1{ //(h1 = seletor)
+    font-family: Arial; //(font-family=declaração)
+    font-size: 20pt; //(20pt=valor)
+    color: blue; //(color=propriedade)
+}
+
+<!-- &lt; (less than) mostra no texto o símbolo (<) e &gt; (greater than) mostra o símbolo (>)-->
+
+<!--Para emojis é necessário o comando &#x + código no emoji na emojipedia-->
+
+Site de imagens de domínio público:
+UnSplash
+Pexels
+FreePik
+Rawpixel
+Pixabay
+Libreshot
+Wikimedia Commons
+
+TAGs de forma e semântica
+Consultar com frequência as tags obsoletas no site oficial da W3C
+Usar apenas tags de semântica na HTML5 como STRONG e EM
+As tags de forma como B e I ficam para as CSS3 
+
+Listas
+Listas ordenadas: Tag <ol>, em cada elemento usar a tag <li>
+A tag <ol> suporta 5 tipos: numeral (1), letras maiúsculas (A), letras minúsculas (a), algorismos romanos maiúsculos (I), algorismos romanos minúsculos (i)
+O fechamento da tag <li> é opcional no HTML5
+É possível criar listas dentro de listas
+
+Listas não ordenadas: Tag <ul>, em cada elemento usar a tag <li>
+A tag <ul> suporta 3 tipos: disk, circle, square
+
+-----------------------------------------------
+
+****** Módulo 02 ******

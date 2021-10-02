@@ -1,0 +1,35 @@
+PDF 1
+
+PDF 2
+
+PDF Capítulo 3
+01 - C   02 - B   03 - A   04 - D   05 - B 
+06 - B   07 - A   08 - C   09 - D   10 - B
+
+PDF Capítulo 4
+01 - D   02 - A   03 - C   04 - D   05 - A
+06 - C   07 - A   08 - D   09 - A   10 - C
+
+PDF Capítulo 5
+01 - A   02 - B   03 - C   04 - C   05 - A
+06 - D   07 - C   08 - D   09 - B   10 - A
+
+PDF Capítulo 6
+01 - C   02 - C   03 - D   04 - A   05 - D
+06 - A   07 - C   08 - D   09 - A   10 - C
+
+PDF Capítulo 7
+01 - C   02 - D   03 - A   04 - A   05 - D
+06 - B   07 - A   08 - A   09 - A   10 - C
+
+PDF Capítulo 8
+01 - B   02 - D   03 - C   04 - C   05 - A
+06 - D   07 - B   08 - D   09 - C   10 - A
+
+PDF Capítulo 09
+01 - C   02 - C   03 - A   04 - D   05 - C
+06 - c   07 - B   08 - A/B 09 - A   10 - B
+
+PDF Capítulo 10
+01 - A   02 - B   03 - C   04 - D   05 - C
+06 - D   07 - A   08 - B   09 - C   10 - B
