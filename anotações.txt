@@ -151,7 +151,23 @@ class em HTMl = . em CSS
 id = ''  = define uma identidade especial para a tag
 
 Duas tags diferentes podem possuir id iguais, se usado o comando #id no css ambas as tags receberão as mesmas configurações. Mas se usado o comando tag#id elas poderão receber configurações diferentes.
+OBS.: Funciona, mas de acordo com o W3C está ERRADO!
+Para isso deve-se usar o identificador 'class'
+Mais de um elemento pode receber a mesma classificação 'class' e dividir configurações
 
-Dica: pode-se colocar ancoras no site que levem de volta a uma tag com id específico
+Dica: evitar dar nomes de class de acordo com a forma. Deve-se dar nomes de acordo com a função
+
+Dica: pode-se colocar ancoras no site que levem de volta a uma tag com 'id' específico
 <a href="#principal">Clique para voltar ao início</a>
 Usado, por exemplo, para voltar ao início da página
+
+Um elemento pode receber mais de uma classe, assim como tbm pode receber um 'id' e uma 'class'. 'id' sobrepõe as configurações de 'class'
+
+Pseudo-classe =
+Trata do estado de um determinado elemento (ativo, marcado, vazio, habilitado, hover - quando passa o mouse em cima, etc)
+pseudo classe em html = : no css
+
+Div é uma tag "coringa" que representa um espaço na tela 
+
+div > p { } /* Configuração apenas para parágrafos dentro de divs */
+O símbolo '>' é usado para especificar apenas tags dentro de outras

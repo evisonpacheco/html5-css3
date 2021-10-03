@@ -5,17 +5,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1#principal{
     color: #DAA520 ;
     text-align: center;
 }
 
 p{
     color: #DAA520;
-}
-
-h2{
-    color: green;
 }
 
 h2#html{
@@ -26,6 +22,14 @@ h2#css{
     color: red;
 }
 
-h3{
+.basico{
     color: #00A7E1;
+}
+
+.intermediario{
+    color:cadetblue
+}
+
+.avancado{
+    color: #473198
 }
