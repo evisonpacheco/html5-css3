@@ -67,6 +67,8 @@ O fechamento da tag <li> é opcional no HTML5
 Listas não ordenadas: Tag <ul>, em cada elemento usar a tag <li>
 A tag <ul> suporta 3 tipos: disk, circle, square
 
+Para links abrirem em nova janela deve-se usar a propriedade = target='_blank'
+
 -----------------------------------------------
 
 ****** Módulo 02 ******
@@ -165,9 +167,14 @@ Um elemento pode receber mais de uma classe, assim como tbm pode receber um 'id'
 
 Pseudo-classe =
 Trata do estado de um determinado elemento (ativo, marcado, vazio, habilitado, hover - quando passa o mouse em cima, etc)
-pseudo classe em html = : no css
+pseudo classe é representada como : nas css
 
 Div é uma tag "coringa" que representa um espaço na tela 
 
 div > p { } /* Configuração apenas para parágrafos dentro de divs */
 O símbolo '>' é usado para especificar apenas tags dentro de outras
+
+> = children, elemento filho de outro elemento
+
+Pseudo-elemento = trata do conteúdo do elemento
+pseudo elemento é representada como :: nas css
