@@ -143,3 +143,15 @@ text-align: (left, center, right, justify)
 
 Identar a primeira linha de cada parágrafo
 text-indent: 
+
+-- Seletores personalizados --
+id em HTML = # em CSS
+class em HTMl = . em CSS
+
+id = ''  = define uma identidade especial para a tag
+
+Duas tags diferentes podem possuir id iguais, se usado o comando #id no css ambas as tags receberão as mesmas configurações. Mas se usado o comando tag#id elas poderão receber configurações diferentes.
+
+Dica: pode-se colocar ancoras no site que levem de volta a uma tag com id específico
+<a href="#principal">Clique para voltar ao início</a>
+Usado, por exemplo, para voltar ao início da página
