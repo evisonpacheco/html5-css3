@@ -93,3 +93,37 @@ Configuração global das CSS = *{}
 -- Tipografia (Fontes) --
 
 Para textos longos em sites utilizar fontes sans-serif
+
+font-family: Arial, Helvetica, sans-serif;
+O comando font-family tenta usar a primeira fonte que ele encontrar. Caso a primeira não esteja instalada no computador, ele procura a segunda e assim por diante.
+
+font-size: 
+Medidas absolutas: cm, mm, px, in (polegada), pt (ponto), pc
+Medidas relativas: em (relativo ao tamanho atual da fonte), ex (relativo a altura x de uma fonte), rem (parecido com em mas relativo ao root - fonte do body), vw (largura da viewport), %
+16 px = 1em = tamanho padrão dos navegadores
+
+font-weight:  peso da fonte 
+lighter, normal, bold, bolder, 100-900
+
+Itálico: font-style: italic;
+
+Sublinhado: text-decoration: underline;
+
+Com comandos similares é possível unir tudo em um único comando - chamado shorthand - no caso do comando font a ordem é:
+- font-style > font-weight > font-size > font-family
+Ficando assim:
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+Para usar fontes externas usasse o comando (dentro do style):
+@font-face {
+        font-family: 'Star Jedi'; //o nome da font-family é minha escolha
+        src: url(./fontes/Starjedi.ttf) format(truetype)
+
+Tipos de format()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+Fontes Ninja: extensão do google chrome para detectar quais as fontes usadas em sites (não funciona com imagens)
