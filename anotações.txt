@@ -70,6 +70,11 @@ A tag <ul> suporta 3 tipos: disk, circle, square
 -----------------------------------------------
 
 ****** Módulo 02 ******
+
+border-radius: 10px = suaviza as bordas de um elemento
+box-shadow: 1px 1px 1px black =
+cria sombras no elemento, ordem dos valores: quantidade de pixels pra direita, quantidade de pixels pra baixo, espalhamento da sombra, cor da sombra
+
 -- Cores --
 Sempre trabalhar com paletas de 3 a 5 cores
 
@@ -127,3 +132,14 @@ Tipos de format()
 - svg
 
 Fontes Ninja: extensão do google chrome para detectar quais as fontes usadas em sites (não funciona com imagens)
+
+Sites para detecção de fontes em imagens:
+WhatFontIs
+FontSquirrel
+MyFonts
+
+Alinhamento de texto em CSS
+text-align: (left, center, right, justify)
+
+Identar a primeira linha de cada parágrafo
+text-indent: 

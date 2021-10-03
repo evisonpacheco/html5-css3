@@ -19,8 +19,8 @@ main{
     width: 590px;
     padding: 10px;
     margin: auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #374E8C ;
+    border-radius: 10px; /* Suaviza as bordas de um elemento */
+    box-shadow: 5px 5px 5px #374E8C ; /* cria sombras */
 }
 
 h1{
