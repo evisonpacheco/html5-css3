@@ -203,3 +203,12 @@ Display: inline; configuração que deixa o elemento como inline-level
 
 #Dica: Usar o DevTools do google chrome para observar e testar os elementos de uma caixa
 
+-- Grouping Tags --
+Tags semânticas (vistos como div)
+header
+nav
+main
+section
+article
+aside (elemento pertencente a um artigo)
+footer
