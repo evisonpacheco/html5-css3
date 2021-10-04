@@ -157,9 +157,9 @@ OBS.: Funciona, mas de acordo com o W3C está ERRADO!
 Para isso deve-se usar o identificador 'class'
 Mais de um elemento pode receber a mesma classificação 'class' e dividir configurações
 
-Dica: evitar dar nomes de class de acordo com a forma. Deve-se dar nomes de acordo com a função
+#Dica: evitar dar nomes de class de acordo com a forma. Deve-se dar nomes de acordo com a função
 
-Dica: pode-se colocar ancoras no site que levem de volta a uma tag com 'id' específico
+#Dica: pode-se colocar ancoras no site que levem de volta a uma tag com 'id' específico
 <a href="#principal">Clique para voltar ao início</a>
 Usado, por exemplo, para voltar ao início da página
 
@@ -178,3 +178,28 @@ O símbolo '>' é usado para especificar apenas tags dentro de outras
 
 Pseudo-elemento = trata do conteúdo do elemento
 pseudo elemento é representada como :: nas css
+
+-- Modelo de caixas --
+Formatação das caixas:
+
+height: 10px;
+width: 10px;
+border: 10px;
+padding: 10px; espaço interno entre conteúdo e borda(acolchoamento)
+margin: 10px; espaço externo entre borda e elementos de fora
+outline: 10px; contorno fora do elemento, depois da border e antes do espaço do margin
+
+Tipos de caixas:
+Box-level e Inline-level
+Consultar imagem (TiposDeCaixas.png)
+
+Exemplos de caixas:
+Consultar imagem (ExemplosDeCaixas.png)
+
+User Agent = Navegador
+
+Display: block; configuração que deixa o elemento como box-level
+Display: inline; configuração que deixa o elemento como inline-level
+
+#Dica: Usar o DevTools do google chrome para observar e testar os elementos de uma caixa
+
