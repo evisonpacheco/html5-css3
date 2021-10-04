@@ -72,11 +72,6 @@ Para links abrirem em nova janela deve-se usar a propriedade = target='_blank'
 -----------------------------------------------
 
 ****** Módulo 02 ******
-
-border-radius: 10px = suaviza as bordas de um elemento
-box-shadow: 1px 1px 1px black =
-cria sombras no elemento, ordem dos valores: quantidade de pixels pra direita, quantidade de pixels pra baixo, espalhamento da sombra, cor da sombra
-
 -- Cores --
 Sempre trabalhar com paletas de 3 a 5 cores
 
@@ -212,3 +207,15 @@ section
 article
 aside (elemento pertencente a um artigo)
 footer
+
+-- Box Shadows --
+box-shadow: 1px 1px 1px black =
+cria sombras no elemento, ordem dos valores: quantidade de pixels pra direita, quantidade de pixels pra baixo, espalhamento da sombra, cor da sombra
+
+DevTools tem uma função para criar box-shadows (Melhor fazer na mão mesmo)
+
+-- Caixas com Vértices Areedondados --
+border-radius: 10px = ´
+suaviza as bordas de um elemento. Tbm se pode usar %
+
+#Dica: Usar medidas diferentes nos opostos para dar um feito bonito
