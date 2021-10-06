@@ -219,3 +219,6 @@ border-radius: 10px = ´
 suaviza as bordas de um elemento. Tbm se pode usar %
 
 #Dica: Usar medidas diferentes nos opostos para dar um feito bonito
+
+-- Mini Projeto --
+Ferramenta MockFlow para planejar a estrutura de um site
