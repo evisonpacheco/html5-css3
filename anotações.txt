@@ -222,3 +222,26 @@ suaviza as bordas de um elemento. Tbm se pode usar %
 
 -- Mini Projeto --
 Ferramenta MockFlow para planejar a estrutura de um site
+
+Comando : transition-duration no css para deixar o efeito escolhido no hover por mais X segundos. Usar diretamente na tag do elemento e não no hover
+Comando : line-height no css para definir espaçamento entre linhas
+
+Degradê pode ser usado de forma que comece em uma cor e termine transparente (transparent)
+-- Variáveis em CSS --
+Variáveis em CSS são definidas dentro da config :root{} 
+São nomedas da seguinte forma = 
+--var: valor;
+
+Exemplos: --cor1: #ebe5c5;
+
+#Dica: Usar para definir a paleta de cores e fontes padrão do site
+
+-- Configurações Globais em CSS --
+*{}
+
+#Dica: usar para definir margens e paddings padrões de todos os elementos, assim um padding ou margin auto configurado pelo navegador não irá entrar em conflito com as configurações do código.
+
+-- Responsividade --
+Forma mais básica de deixar o site responsivo: configurar min-width  e max-width dos elementos e deixar a width em 100%
+
+#Dica: Tentar usar, na maioria dos casos, % nas configurações de margin e padding. Garante uma responsividade melhor. Em alguns casos usar % na width de imagens
