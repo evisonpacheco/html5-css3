@@ -227,6 +227,7 @@ Comando : transition-duration no css para deixar o efeito escolhido no hover por
 Comando : line-height no css para definir espaçamento entre linhas
 
 Degradê pode ser usado de forma que comece em uma cor e termine transparente (transparent)
+
 -- Variáveis em CSS --
 Variáveis em CSS são definidas dentro da config :root{} 
 São nomedas da seguinte forma = 
@@ -245,3 +246,12 @@ Exemplos: --cor1: #ebe5c5;
 Forma mais básica de deixar o site responsivo: configurar min-width  e max-width dos elementos e deixar a width em 100%
 
 #Dica: Tentar usar, na maioria dos casos, % nas configurações de margin e padding. Garante uma responsividade melhor. Em alguns casos usar % na width de imagens
+
+-- Listas --
+list-style-position: inside; /* Comando para os marcadores da lista ficarem dentro do aside, o padrão é 'outside' */
+
+columns: 2; /* Divide a lista em colunas, simples assim */
+
+list-style-type: '\2714\00A0'; /* É COMPATÍVEL APENAS COM GOOGLE CHROME!!! Comando para mudar o tipo de marcador de uma list '2714' é o marcador e '00A0' é o espaço, para não deixar o marcador mt colado da palavra*/
+
+****** Módulo 03 ******
