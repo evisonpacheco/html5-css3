@@ -1,2 +1,3 @@
 # html5-css3
- curso de html5 e css3
+Repositório de estudos 
+Exercícios de HTML5 e CSS3
