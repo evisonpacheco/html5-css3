@@ -164,6 +164,11 @@ Pseudo-classe =
 Trata do estado de um determinado elemento (ativo, marcado, vazio, habilitado, hover - quando passa o mouse em cima, etc)
 pseudo classe é representada como : nas css
 
+Pseudo classe :not. Útil para definir as configurações para todos os elementos exceto um ou mais de um específico
+nav li:not(:last-child){
+    border-right: 1px solid red;
+}
+
 Div é uma tag "coringa" que representa um espaço na tela 
 
 div > p { } /* Configuração apenas para parágrafos dentro de divs */
