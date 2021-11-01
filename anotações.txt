@@ -274,4 +274,7 @@ repeat-y = repete no eixo y (vertical)
 
 background-size = controla o tamanho da imagem
 
-background-position = define o ponto de início base da imagem
+background-position = define o ponto de alinhamento base da imagem de fundo
+Primeiro definir a coluna = right, center ou left
+Depois definir a linha = top, center ou bottom
+Caso o segundo valor n for definido, será considerado 'center'
