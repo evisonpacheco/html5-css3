@@ -260,3 +260,16 @@ columns: 2; /* Divide a lista em colunas, simples assim */
 list-style-type: '\2714\00A0'; /* É COMPATÍVEL APENAS COM GOOGLE CHROME!!! Comando para mudar o tipo de marcador de uma list '2714' é o marcador e '00A0' é o espaço, para não deixar o marcador mt colado da palavra*/
 
 ****** Módulo 03 ******
+-- Background Image --
+Propriedades:
+
+background-image: url() ;
+Pode ser usado mostrando o caminho do arquivo ou usando uma URL da internet
+
+background-repeat: controla a repetição do background
+no-repeat = não repete
+repeat = (padrão) repete
+repeat-x = repete no eixo X (horizontal)
+repeat-y = repete no eixo y (vertical)
+
+background-size = controla o tamanho da imagem
