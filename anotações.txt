@@ -280,3 +280,5 @@ background-position = define o ponto de alinhamento base da imagem de fundo
 Primeiro definir a coluna = right, center ou left
 Depois definir a linha = top, center ou bottom
 Caso o segundo valor n for definido, será considerado 'center'
+
+Para definir um site com 100% da VW deve-se colocar essa configuração no html e não no body
