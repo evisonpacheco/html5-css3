@@ -273,6 +273,8 @@ repeat-x = repete no eixo X (horizontal)
 repeat-y = repete no eixo y (vertical)
 
 background-size = controla o tamanho da imagem
+contain = faz com que a imagem seja 100% exibida
+cover = cobre a tela inteira (mesmo q para isso tenha q cortar parte da imagem)
 
 background-position = define o ponto de alinhamento base da imagem de fundo
 Primeiro definir a coluna = right, center ou left
