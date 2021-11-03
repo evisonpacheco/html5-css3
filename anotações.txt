@@ -290,3 +290,14 @@ fixed = fixo
 SHORTHAND BACKGROUND
 color > image > position > repeat > [size] > attachment
 Por algum bug nos navegadores, SIZE ainda não pode ser aplicado a shorthand
+
+-- Alinhamento Vertical --
+Para alinhar uma div dentro de outra deve-se configurar a div interna com um id 'conteudo' e a externa como 'container'.
+A position do container deve ser 'relative'
+A position do conteudo deve ser 'absolute'
+
+Position 'absolute' libera configurações adicionais para a div
+Configuração Top deve ser 50%
+Configuração Left deve ser 50%
+
+Transform: translate(-50%, -50%)
