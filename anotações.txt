@@ -282,3 +282,11 @@ Depois definir a linha = top, center ou bottom
 Caso o segundo valor n for definido, será considerado 'center'
 
 Para definir um site com 100% da VW deve-se colocar essa configuração no html e não no body
+
+background-attachment = define se o background vai ficar fixo ou vai rodar junto com a barra de rolagem
+scroll = roda junto
+fixed = fixo
+
+SHORTHAND BACKGROUND
+color > image > position > repeat > [size] > attachment
+Por algum bug nos navegadores, SIZE ainda não pode ser aplicado a shorthand
