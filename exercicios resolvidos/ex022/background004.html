@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Posicionamento</title>
   <style>
-    *{
+    * {
       margin: 0;
       padding: 0;
     }
-    body{
-      height: 100vh;
-      width: 100vw;
 
-      background-image: url(images/pattern003.png);
+    body {
+      height: 100%;
+      width: 100%;
+
+      /* background-image: url(images/wallpaper002.jpg);
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: center center; */
+    }
+
+    /* .teste {
+      
+    } */
+
+    .teste img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.5;
+      animation: zoom 25s;
+    }
+
+    @keyframes zoom {
+      0% {
+        transform: scale(1.3);
+      }
+
+      100% {
+        transform: scale(1);
+      }
     }
   </style>
 </head>
+
 <body>
-  
+  <div class='teste'>
+<img src="images/wallpaper002.jpg" alt="teste">
+  </div>
 </body>
+
 </html>
